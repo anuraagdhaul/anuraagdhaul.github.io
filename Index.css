@@ -1,0 +1,75 @@
+.Body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  
+  .Page_Header {
+    padding: 80px; /* some padding */
+    text-align: center; /* center the text */
+    background: #f2c854;
+    width: 90%; /* light/yellow background 
+   */
+    color: #d72d2d; /* light red text color */
+  }
+  button {
+    background-color: #008cba; /* Green */
+    color: #e6e3dc;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+  }
+  /* Increase the font size of the <h1> element */
+  .Page_Header h1 {
+    font-size: 15px;
+  }
+  
+  .Intro_About {
+    padding: 80px;
+    text-align: center;
+    width: 90%;
+    background: #57c0c2;
+    color: #bd5935;
+    word-wrap: break-word;
+  }
+  
+.Scratch{
+  padding: 80px;
+  text-align: center;
+  width: 90%;
+  background: #5dbc3d;
+  color: #138f66;
+  word-wrap: break-word;
+
+
+
+}
+
+  .IntroScratch {
+    padding: 30px;
+    text-align: center;
+    font-size: 15px;
+    width: 90%;
+    word-wrap: break-word;
+  }
+  
+  .ScratchProject1 {
+    padding: 30px;
+    text-align: center;
+    font-size: 15px;
+    width: 90%;
+    word-wrap: break-word;
+  }
+  
+  .ImageLink {
+    padding: 30px;
+    text-align: center;
+    font-size: 15px;
+    width: 90%;
+    word-wrap: break-word;
+  }
+  
+.Image1 {
+    margin-left: auto;
+    margin-right: auto;
+    display:block
+}
+

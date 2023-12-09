@@ -1,0 +1,14 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "a",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", "start": "http-server"
+  },
+  "author": "celticslover99",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
