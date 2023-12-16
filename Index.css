@@ -12,7 +12,7 @@
   }
   button {
     background-color: #008cba; /* Green */
-    color: #e6e3dc;
+    color: #d2c3c3;
     text-align: center;
     display: inline-block;
     font-size: 16px;
@@ -35,15 +35,16 @@
   padding: 80px;
   text-align: center;
   width: 90%;
-  background: #5dbc3d;
-  color: #138f66;
+  background: #54514b;
+  color: #eba937de;
   word-wrap: break-word;
-
-
-
 }
 
-  .IntroScratch {
+.ScratchLink {
+  color:#b97807de;
+}
+
+  .Intro {
     padding: 30px;
     text-align: center;
     font-size: 15px;
@@ -51,8 +52,9 @@
     word-wrap: break-word;
   }
   
-  .ScratchProject1 {
+  .Project1 {
     padding: 30px;
+    color: #423e3700;
     text-align: center;
     font-size: 15px;
     width: 90%;
@@ -73,3 +75,10 @@
     display:block
 }
 
+.Python{
+  padding: 80px;
+  text-align: center;
+  width: 90%;
+  background: #e59635;
+  word-wrap: break-word;
+}
