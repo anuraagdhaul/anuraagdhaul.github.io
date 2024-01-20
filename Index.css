@@ -82,3 +82,36 @@
   background: #e59635;
   word-wrap: break-word;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  height: 20px;
+  margin: 2px;
+}
+
+img{
+  text-align:center
+
+}
+
+div{
+  text-align:center;
+}
+
+a{
+  text-align:center;
+  width: 90%
+}
+
+.JavaScript{
+  background:indianred;
+  color: black;
+  text-align:center
+  
+}
