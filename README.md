@@ -1,2 +1,2 @@
 # Website
- Website about me
+ Website about my codnig journey

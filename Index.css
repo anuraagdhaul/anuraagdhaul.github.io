@@ -38,6 +38,7 @@
   background: #54514b;
   color: #eba937de;
   word-wrap: break-word;
+  display: none;
 }
 
 .ScratchLink {
@@ -54,7 +55,7 @@
   
   .Project1 {
     padding: 30px;
-    color: #423e3700;
+    color: #eba937de;
     text-align: center;
     font-size: 15px;
     width: 90%;
@@ -81,6 +82,7 @@
   width: 90%;
   background: #e59635;
   word-wrap: break-word;
+  display: none;
 }
 
 .wrapper {
@@ -110,8 +112,20 @@ a{
 }
 
 .JavaScript{
+  padding: 80px;
   background:indianred;
   color: black;
-  text-align:center
+  text-align:center;
+  display: none
   
 }
+
+.Website{
+  padding: 80px;
+  background: rgb(247, 222, 94);
+  color:black;
+  text-align:center;
+  display: none
+}
+
+/*rgb(227, 171, 17)*/

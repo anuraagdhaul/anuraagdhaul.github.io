@@ -1,7 +1,127 @@
 <html>
 <html lang="en">
 <link rel = "stylesheet" type = "text/css" href = Index.css>  
-<script src="Index.js"></script>
+<script type="text/javascript" src="Index.js"></script>
+<script>function scratch() 
+  {
+    var x = document.getElementsByClassName("Scratch");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="block"
+    }
+    var x = document.getElementsByClassName("Python");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="none"
+    }
+    var x = document.getElementsByClassName("JavaScript");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="none"
+    }
+    var x = document.getElementsByClassName("Website");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="none"
+    }
+    var x = document.getElementsByClassName("Intro_About");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="none"
+    }
+  }
+
+  function python() 
+  {
+    var x = document.getElementsByClassName("Scratch");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="none"
+    }
+    var x = document.getElementsByClassName("Python");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="block"
+    }
+    var x = document.getElementsByClassName("JavaScript");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="none"
+    }
+    var x = document.getElementsByClassName("Website");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="none"
+    }
+    var x = document.getElementsByClassName("Intro_About");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="none"
+    }
+  }
+
+  function javascript() 
+  {
+    var x = document.getElementsByClassName("Scratch");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="none"
+    }
+    var x = document.getElementsByClassName("Python");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="none"
+    }
+    var x = document.getElementsByClassName("JavaScript");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="block"
+    }
+    var x = document.getElementsByClassName("Website");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="none"
+    }
+    var x = document.getElementsByClassName("Intro_About");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="none"
+    }
+  }
+
+  function website() 
+  {
+    var x = document.getElementsByClassName("Scratch");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="none"
+    }
+    var x = document.getElementsByClassName("Python");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="none"
+    }
+    var x = document.getElementsByClassName("JavaScript");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="none"
+    }
+    var x = document.getElementsByClassName("Website");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="block"
+    }
+    var x = document.getElementsByClassName("Intro_About");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="none"
+    }
+  }
+
+  function intro_about() 
+  {
+    var x = document.getElementsByClassName("Scratch");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="none"
+    }
+    var x = document.getElementsByClassName("Python");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="none"
+    }
+    var x = document.getElementsByClassName("JavaScript");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="none"
+    }
+    var x = document.getElementsByClassName("Website");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="none"
+    }
+    var x = document.getElementsByClassName("Intro_About");
+    for (var y = 0; y < x.length; y += 1) {
+      x[y].style.display="block"
+    }
+  }
+</script>
 <head>
   <title>My Website</title>
  <meta charset="UTF-8">
@@ -11,34 +131,36 @@
 <body>
 
   <div class="Page_Header">
-    <h1>My Website</h1>
+    <h1 style = "font-size: 35px">My Website</h1>
     <p>A website created about my coding accomplishments</p>
     <div class="Navigation">
-      <button>Scratch</button>
-      <button>Python</button>
-      <button>JavaScript</button>
-      <button>This Website</button>
+      <button onclick = "intro_about()">Introduction</button>
+      <button onclick = "scratch()">Scratch</button>
+      <button onclick = "python()">Python</button>
+      <button onclick = "javascript()">JavaScript</button>
+      <button onclick = "website()">This Website</button>
     </div>
   </div>
 <!--Introduction + About Me Section-->
   <div class="Intro_About">
     <div class="Introduction">
       <h3 class="IntroText1"><u>Introduction</u></h3>
-      <div class="IntroText2">Hi! My name is Anuraag Dhaul and this moment you are gazing at my masterful website that I created to enlighten of my coding accomplishments and skills.</div>
-      <div class="IntroText3">Explore my website to learn about me. Bye!</div>
+      <div class="IntroText2">Hi! My name is Anuraag Dhaul and at this moment you are gazing at my masterful website that I created to enlighten you of my coding accomplishments and skills.</div>
+      <div class="IntroText3">Explore my website to learn about me.</div>
     </div>
     <br>
     <br>
     <br>
     <div class="AboutMe">
       <h3 class="About1"><u>About Me</u></h3>
-      <div class="About2">My name is Anuraag Dhaul, and I am currently 12 years old. I was born in New Delhi, India and lived there for the first six years of my life. After that, my family moved to Amsterdam, Netherlands. In the Netherlands, I went to the Internation School of Amsterdam (ISA) and am now studying at The American School of the Hague. My hobbies are football, basketball, reading mystery novels. When I grow up, I want to be a businessman or a lawyer. I created this website to show you about my accomplishemnts and my goals in life.
+      <div class="About2">I am currently 12 years old. I was born in New Delhi, India where I lived for the first six years of my life. After that, my family moved to Amsterdam, Netherlands. In the Netherlands, I went to the International School of Amsterdam (ISA) and I am now studying at The American School of the Hague. My hobbies are football, basketball, and reading mystery novels. When I grow up, I want to be a businessman or a lawyer. I created this website to show you about my coding accomplishemnts.
       </div>
     </div>
   </div>
-<!--Scratch Section-->
+<!--Scratch Section----->
   <div class="Scratch">
-    <div class="Intro">I first started coding by learning how to operate Scratch to build projects. With the help of Juni and my Juni instructor I mastered the motion, looks, sounds, events, controls, sensors, variables, and 'my blocks'. I learned scratch through the organized lessons of Juni and by viewing other scratchers' work on the main page. During the two years I spent learning scratch, I coded many projects. Some of these projects and and a short explanation of each one of them are below.</div>
+    <div style = "font-size: 20px; color: #eba937de"><u>Scratch</u></div>
+    <div class="Intro">I first started coding by learning how to operate Scratch to build projects. With the help of Juni and my Juni instructor, I mastered the motion, looks, sounds, events, controls, sensors, variables, and 'my blocks'. I learned scratch through the organized lessons of Juni and by viewing other scratchers' work on the main page. During the two years I spent learning scratch, I coded many projects and a short explanation of a few of them are shown below.</div>
 
     <div class="Project1">The first project is one of my master projects that I coded. A master project is a project which makes you code a game based on the skills you have learned during the course. This project is an interactive 2 v. 2 games based on soccer. The controls to move the sprites (characters) are below:
       Ben (sprite dressed in red and black): Arrow Key
@@ -54,7 +176,7 @@
       <br>
       <a class = "ScratchLink" href= =https://scratch.mit.edu/projects/422804496/>Soccer Master Project</a>
     </div>
-    <div class = "Project1">The second project I created during my time learning Scratch was a 'Person v. AI' game based around on Tennis. This game replays the match between Federer and Herbert (two major tennis champions). The controls are listed in the project page. Enjoy!
+    <div class = "Project1">The second project I created, was a 'Person v. AI' game based on Tennis. This game replays the match between Federer and Herbert (two major tennis champions). The controls are listed in the project page. Enjoy!
     </div>
     <br>
     <img src = "Tennis_Scratch_Project.png" alt = "Tennis game" height = 300px width = 300px class = "Image1">
@@ -69,8 +191,9 @@
   </div>
 <!--Python Section-->
   <div class = "Python">
-    <div class = Intro>After Scratch, throught the help and guidance of Juni, I started to learn how to code in Python. I spent two years learning python, through levels one and two. A few of my master projects as well as my projects are listed below. </div>
-    <div class = 'Project 1'>The first master project I created was a remake of the Squid Game. In this game, one controls the green triangle and aims to reach the multicolored square before the red circles touch the triangle. If one is touched by the red circles, they lose one life. I hope you enjoy playing this game.</div>
+    <div style = "font-size: 20px; color: black"><u>Python</u></div>
+    <div class = Intro>After Scratch, I started to learn how to code in Python. I spent two years learning python, through levels one and two. A few of my master projects as well as my projects are listed below. </div>
+    <div class = 'Project 1'>The first master project I created was a remake of the Squid Game. In this game, one controls the green triangle and aims to reach the multicolored square before the red circles touch the triangle. If the green triangle is touched by the red circles, they lose one life. I hope you enjoy playing this game.</div>
     <br>
     <img src = "Python1_Project.png" alt = "Squid Game Remake" height = 300px width = 300px class = "Image1"> 
     <div class="ImageLink"><u>Link:</u>
@@ -97,7 +220,8 @@
   </div>
 <!--JavaScript Section-->
   <div class = "JavaScript">
-    <div class = Intro>Next, I chose to learn to learn the two levels of JavaScript. Whole learning to code JavaScript, I created many masterpieces on Codepen, a community for testing and showing HTML, CSS, and JavaScript. Due to size constraints, my four best projects (ranked in order from least to greatest) are listed below.</div>
+    <div style = "font-size: 20px; color: black"><u>JavaScript</u></div>
+    <div class = Intro>Next, I chose to learn to learn the two levels of JavaScript. While learning to code JavaScript, I created many masterpieces on Codepen, a community for testing and showing HTML, CSS, and JavaScript. Due to size constraints, my four best projects (ranked in order from least to greatest) are listed below.</div>
     <div class = 'Project 1'>To start the list, the first project listed is titled 'Pattern Printing'. In this project, I practiced making repeated patterns using the Pac-Man icon. The repeated pattern increases by one as it goes on.</div>
     <br>
     <img src = "JSProject1_Pattern Printing.png" alt = "" height = 300px width = 300px class = "Image1"> 
@@ -135,11 +259,14 @@
  
     <div class = 'Project 1'>My favorite project that I coded in Codepen is called 'JavaScript Art'. This project includes different pieces of artwork I coded with different color schemes and backgrounds. </div>
     <br>
-    <img src = "Website_Section.png" alt = "Sidebar" height = 300px width = 300px class = "Image1" border = "3">
-    <div class = "Project 1">The above image shows the file structure of my project in VS Code. The purple image icons signal that the file contains an image (screenshots of previous projects), the curly brackets represent json files that are a byproduct of my usage of Node, </div>
+    <img src = "Python_4_JavaScript-Art.png" alt = "" height = 300px width = 600px class = "Image1" border = "3"> 
+    <div class="ImageLink"><u>Link:</u> 
       <br>
-      <img src = "Website_Section.png" alt = "Sidebar" height = 300px width = 300px class = "Image1" border = "3"> 
-      <div class="ImageLink"><u>Link:</u> 
+      <a class = "PythonLink" href= =https://codepen.io/AjDoll99/pen/ZEVpBNp/>JavaScript Art</a>
+    </div>
+    
+
+
     </div>
 
 
@@ -147,8 +274,33 @@
 
 <!--This Website-->
 <div class = "Website">
-    <div class = Intro>Lastly, I created this website with Visual Studio Code as my IDE (Integrated Developement Environment) and using Github as my version control. I coded this website using my experience in html, CSS, and JavaScript as well as researching different types of websites and layouts. In the future, I would to improve this website by adopting frameworks such as Angular, React, or Vue (just to name a few possibilities). verall, I loved working on this project and below are some pictures of the 'behind the scenes' activity it took to create this website!</div>
+  <div style = "font-size:20px; color: black"><u>This Website</u></div>
+    <div class = Intro>Lastly, I created this website with Visual Studio Code as my IDE (Integrated Developement Environment) and using Github as my version control. I coded this website using my experience in html, CSS, and JavaScript as well as researching different types of websites and layouts. In the future, I would to improve this website by adopting frameworks such as Angular, React, or Vue (just to name a few possibilities). Overall, I loved working on this project and below are some pictures of the 'behind the scenes' activity it took to create this website!</div>
+    <img src = "Website_Explorer_2.png" alt = "Sidebar" height = 300px width = 150px class = "Image1" border = "3">
+      <br>
+    <div class = "Project 1">The above image shows the file structure of my project in VS Code. The purple image icons signal that the file contains an image (screenshots of previous projects) and the curly brackets represent json files that are a byproduct of my usage of Node.</div>
+      <br>
+      <br>
+    <img src = "Website_License.png" alt = "License" height = 300px width = 600px class = "Image1" border = "3"> 
+      <br>
+    <div class = "Project 1">As shown above, this is a pricture of a license I am using for my website. This license, the MIT license, is a permissive-use, owner-protective license commonly used in open-source development. </div>
+      <br>
+      <br>
+    <img src = "Website_HTML_2.png" alt = "HTML" height = 300px width = 600px class = "Image1" border = "3"> 
+      <br>
+    <div class = "Project 1">A snapshot of some of my HTML code</div>
+      <br>
+      <br>
+    <img src = "Website_CSS_2.png" alt = "CSS" height = 300px width = 300px class = "Image1" border = "3"> 
+      <br>
+    <div class = "Project 1">The beginning of my CSS section</div>
+      <br>
+      <br>
+    <img src = "Website_JS_2.png" alt = "JavaScript" height = 300px width = 300px class = "Image1" border = "3"> 
+      <br>
+    <div class = "Project 1">A screenshot of my JavaScript code</div>
   </div>
+
 
 
 </body>
