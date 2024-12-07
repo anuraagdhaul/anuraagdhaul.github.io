@@ -5,14 +5,14 @@
   .Page_Header {
     padding: 80px; /* some padding */
     text-align: center; /* center the text */
-    background: #C60C29;
-    width: 90%; /* light/yellow background 
+    background: #CC0000;
+    width: 75%; /* red background 
    */
-    color: #FFFFF0; /* light red text color */
+    color: #FFFFF0; /* light creme text color */
   }
   button {
-    background-color: #008cba; /* Green */
-    color: #d2c3c3;
+    background-color: #696969; /* Green */
+    color: #FFFFF0;
     text-align: center;
     display: inline-block;
     font-size: 16px;
