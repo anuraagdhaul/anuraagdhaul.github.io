@@ -123,13 +123,28 @@
   }
 </script>
 <head>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <title>My Website</title>
  <meta charset="UTF-8">
  <!---<meta name="viewport" content="width=device-width, initial-scale=1"></!--->
 </head>
 
 <body>
-
+<div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo center">Your Name</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><button onclick = "intro_about()">Introduction</button></li> 
+                    <li><button onclick = "scratch()">Scratch</button></li>
+                    <li><button onclick = "python()">Python</button></li>
+                    <li><button onclick = "javascript()">JavaScript</button></li>
+                    <li><button onclick = "website()">This Website</button></li>
+                </ul>
+            </div>
+        </nav>
+</div>
   <div class="Page_Header">
     <h1 style = "font-size: 35px">My Website</h1>
     <p>A website created about my coding accomplishments</p>
@@ -249,7 +264,7 @@
       <a class = "PythonLink" href= "https://app.junilearning.com/juniverse/projects/641f014653175c0507aed72e/">Tricky Trivia</a>
     </div>
 
-    <div class = 'Project 1'>The Hero Page is the second best project I created during my time learning JavaScript. For my hero page, I chose Kobe Bryant, a former NBA star who tragically passed away due to a helicopter accident(R.I.P). <br> This page talks about his achievements, etc. in the NBA over the course of his 20 seasons. </div>
+    <div class = 'Project 1'>The Hero Page is the second-best project I created during my time learning JavaScript. For my hero page, I chose Kobe Bryant, a former NBA star who tragically passed away due to a helicopter accident(R.I.P). <br> This page talks about his achievements, etc. in the NBA over the course of his 20 seasons. </div>
     <br>
     <img src = "JSProject3_HeroPage.png" alt = "" height = 300px width = 300px class = "Image1" border = "3"> 
     <div class="ImageLink"><u>Link:</u> 
@@ -275,7 +290,7 @@
 <!--This Website-->
 <div class = "Website">
   <div style = "font-size:20px; color: black"><u>This Website</u></div>
-    <div class = Intro>Lastly, I created this website with Visual Studio Code as my IDE (Integrated Developement Environment) and using Github as my version control. I coded this website using my experience in html, CSS, and JavaScript as well as researching different types of websites and layouts. In the future, I would to improve this website by adopting frameworks such as Angular, React, or Vue (just to name a few possibilities). Overall, I loved working on this project and below are some pictures of the 'behind the scenes' activity it took to create this website!</div>
+    <div class = Intro>Lastly, I created this website with Visual Studio Code as my IDE (Integrated Development Environment) and using Github as my version control. I coded this website using my experience in html, CSS, and JavaScript as well as researching different types of websites and layouts. In the future, I would to improve this website by adopting frameworks such as Angular, React, or Vue (just to name a few possibilities). Overall, I loved working on this project and below are some pictures of the 'behind the scenes' activity it took to create this website!</div>
     <img src = "Website_Explorer_2.png" alt = "Sidebar" height = 300px width = 150px class = "Image1" border = "3">
       <br>
     <div class = "Project 1">The above image shows the file structure of my project in VS Code. The purple image icons signal that the file contains an image (screenshots of previous projects) and the curly brackets represent json files that are a byproduct of my usage of Node.</div>
@@ -302,6 +317,10 @@
   </div>
 
 
+<!-- Include jQuery (Required by Materialize) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
+<!-- Include Materialize JS (CDN) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
