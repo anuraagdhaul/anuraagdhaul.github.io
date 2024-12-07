@@ -1,6 +1,9 @@
 .Body {
     font-family: Georgia, "Times New Roman", Times, serif;
   }
+nav {
+    background-color: #000000 !important; 
+} 
   
   .Page_Header {
     padding: 80px; /* some padding */
