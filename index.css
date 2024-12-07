@@ -5,10 +5,10 @@
   .Page_Header {
     padding: 80px; /* some padding */
     text-align: center; /* center the text */
-    background: #f2c854;
+    background: #DF0334;
     width: 90%; /* light/yellow background 
    */
-    color: #d72d2d; /* light red text color */
+    color: #FFFFF0; /* light red text color */
   }
   button {
     background-color: #008cba; /* Green */
