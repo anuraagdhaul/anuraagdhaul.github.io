@@ -132,3 +132,7 @@ a{
 }*/
 
 /*rgb(227, 171, 17)*/
+.flex-container {
+  display: flex;
+}
+
