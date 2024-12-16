@@ -34,7 +34,7 @@ nav {
     word-wrap: break-word;
   }
   
-.Scratch{
+/*.Scratch{
   padding: 80px;
   text-align: center;
   width: 90%;
@@ -46,7 +46,7 @@ nav {
 
 .ScratchLink {
   color:#b97807de;
-}
+}*/
 
   .Intro {
     padding: 30px;
@@ -56,7 +56,7 @@ nav {
     word-wrap: break-word;
   }
   
-  .Project1 {
+/* .Project1 {
     padding: 30px;
     color: #eba937de;
     text-align: center;
@@ -86,7 +86,7 @@ nav {
   background: #e59635;
   word-wrap: break-word;
   display: none;
-}
+}*/
 
 .wrapper {
   display: flex;
@@ -114,7 +114,7 @@ a{
   width: 90%
 }
 
-.JavaScript{
+/*.JavaScript{
   padding: 80px;
   background:indianred;
   color: black;
@@ -129,6 +129,6 @@ a{
   color:black;
   text-align:center;
   display: none
-}
+}*/
 
 /*rgb(227, 171, 17)*/
