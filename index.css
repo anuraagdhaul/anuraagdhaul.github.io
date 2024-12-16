@@ -135,11 +135,14 @@ a{
 .flex-container {
   display: flex;
 }
- .container {
-            max-width: 1100px;
-            margin: auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ .section-title {
+            text-decoration: underline;
+            color: #333;
+            margin-bottom: 20px;
         }
+
+        .controls {
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
