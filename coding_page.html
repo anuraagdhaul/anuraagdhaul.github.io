@@ -65,7 +65,7 @@
             </div>
             
             <!-- Text Column -->
-            <div class="col s12 m8">
+            <div class="col s12 m8 left-align">
                 <p>
                     I first started learning to code by operating Scratch. Here, I built projects while mastering 
                     the language's different aspects: motion, looks, sounds, events, controls, sensors, and variables. 
@@ -88,7 +88,6 @@
 
         <!-- Link Section -->
         <div class="link center-align">
-            <p><u>Link:</u></p>
             <a href="https://scratch.mit.edu/projects/422804496/" target="_blank" class="btn blue darken-2 waves-effect waves-light">
                 <i class="fas fa-external-link-alt left"></i>View Soccer Master Project
             </a>
@@ -98,5 +97,12 @@
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script>
+        // Initialize Materialize components
+        document.addEventListener('DOMContentLoaded', function() {
+            const elems = document.querySelectorAll('.materialboxed');
+            M.Materialbox.init(elems);
+        });
+    </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
