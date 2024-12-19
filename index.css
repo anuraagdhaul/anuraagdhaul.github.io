@@ -157,6 +157,7 @@ margin-top: 15px;
 
 footer.page-footer {
     background-color: #CC0000 !important; 
+    padding: 40px;
     margin-top: auto; /* Push footer to the bottom */
     color: white;
 }
