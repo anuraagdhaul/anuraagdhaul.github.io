@@ -14,6 +14,11 @@ nav {
     color: #FFFFF0; /* Cream text */
     text-align: center;
 }
+.container{
+        padding: 0 40px; 
+        text-align: center;
+
+}
 
   button {
     background-color: #696969; /* Green */
