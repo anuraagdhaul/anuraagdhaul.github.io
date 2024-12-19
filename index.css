@@ -40,8 +40,7 @@ nav {
   .Intro_About {
     text-align: center;
     width: 100%;
-    background: #FAF9F6;
-    color: #C41E3A;
+    color: #000000 !important;
     word-wrap: break-word;
   }
   
