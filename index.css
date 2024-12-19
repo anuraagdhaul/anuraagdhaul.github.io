@@ -10,7 +10,6 @@ nav {
     box-sizing: border-box; /* Ensure padding/margin don't affect width */
     padding: 80px 0px; /* Padding for top and bottom only */
     margin: 0; /* Prevent interaction with any inherited margins */
-    width: calc(100% + 80px); /* Adjust to counteract body's 40px padding */
     background: #CC0000; /* Red background */
     color: #FFFFF0; /* Cream text */
     text-align: center;
