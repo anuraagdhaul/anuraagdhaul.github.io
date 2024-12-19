@@ -20,7 +20,6 @@ nav {
 
 }
 .footer-container{
-    padding: 40px 0px; /* Padding for top and bottom only */
     flex: 1; /* Allow the container to stretch */
     display: flex;
     flex-direction: column;
