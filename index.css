@@ -145,9 +145,13 @@ a{
             color: #333;
             margin-bottom: 20px;
         }
-
-        .controls {
-            font-weight: bold;
-            margin-top: 15px;
+.controls{
+font-weight: bold;
+margin-top: 15px;
         }
 
+footer.page-footer {
+    background-color: #CC0000 !important; 
+    margin-top: auto; /* Push footer to the bottom */
+    color: white;
+}
