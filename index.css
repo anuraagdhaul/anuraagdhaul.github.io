@@ -8,14 +8,16 @@ nav {
     background-color: #000000 !important; 
 } 
   
-  .Page_Header {
-    padding: 80px 0px;
-    text-align: center; /* center the text */
-    background: #CC0000;
-    width: 100%; /* red background 
-   */
-    color: #FFFFF0; /* light creme text color */
-  }
+.Page_Header {
+    box-sizing: border-box; /* Ensure padding/margin don't affect width */
+    padding: 80px 0px; /* Padding for top and bottom only */
+    margin: 0; /* Prevent interaction with any inherited margins */
+    width: calc(100% + 80px); /* Adjust to counteract body's 40px padding */
+    background: #CC0000; /* Red background */
+    color: #FFFFF0; /* Cream text */
+    text-align: center;
+}
+
   button {
     background-color: #696969; /* Green */
     color: #FFFFF0;
