@@ -20,6 +20,7 @@ nav {
 
 }
 .footer-container{
+    padding: 40px 0px; /* Padding for top and bottom only */
     flex: 1; /* Allow the container to stretch */
     display: flex;
     flex-direction: column;
@@ -157,7 +158,6 @@ margin-top: 15px;
 
 footer.page-footer {
     background-color: #CC0000 !important; 
-    padding: 40px;
     margin-top: auto; /* Push footer to the bottom */
     color: white;
 }
