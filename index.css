@@ -159,3 +159,7 @@ footer.page-footer {
     margin-top: auto; /* Push footer to the bottom */
     color: white;
 }
+.img_music{
+    width:200;
+    height:400;
+}
