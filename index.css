@@ -159,11 +159,10 @@ footer.page-footer {
     margin-top: auto; /* Push footer to the bottom */
     color: white;
 }
-.img_music{
-    width:200 !important;
-    height:400 !important;
-      display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.img_music {
+    width: 200px !important; /* Added px unit */
+    height: 400px !important; /* Added px unit */
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /* Optional: Centering already works without it */
 }
