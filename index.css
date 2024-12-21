@@ -4,22 +4,8 @@ body {
     background-color: #EFE3B9;
 
     }
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-.footer_c {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 50px;
-  background-color: #333;
-  color: white;
-  text-align: center;
-  line-height: 50px; /* Matches footer height */
-}
+
+
 nav {
     background-color: #000000 !important; 
     } 
