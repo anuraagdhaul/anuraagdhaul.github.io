@@ -2,9 +2,7 @@ body {
     font-family: Georgia, "Times New Roman", Times, serif;
     margin: 0;              /* Removes default browser margins */    
     background-color: #EFE3B9;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+
     }
 
 nav {
