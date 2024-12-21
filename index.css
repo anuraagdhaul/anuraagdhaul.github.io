@@ -97,23 +97,7 @@ font-weight: bold;
 margin-top: 15px;
         }
 
-footer.page-footer {
-   position:fixed;
-    left:0px;
-   bottom:0px;
-   height:30px;
-   width:100%;
-   background-color: #CC0000 !important; 
-    margin-top: auto; /* Push footer to the bottom */
-    color: white;
-}
 
-.footer-container{
-    flex: 1; /* Allow the container to stretch */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;}
 
 .img_music {
     width: 275px !important; /* Added px unit */
