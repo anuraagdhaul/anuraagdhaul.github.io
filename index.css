@@ -2,13 +2,17 @@ body {
     font-family: Georgia, "Times New Roman", Times, serif;
     margin: 0;              /* Removes default browser margins */    
         background-color: #EFE3B9;
+     display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure body is at least as tall as the viewport */
+            margin: 0; 
 
   }
 nav {
     background-color: #000000 !important; 
 } 
-.body_whie{
-    background-color:  #FFFFFF;
+.body_white{
+    background-color:  #FFFFFF !important;
 }
   
 .Page_Header {
@@ -19,6 +23,9 @@ nav {
     color: #FFFFF0; /* Cream text */
     text-align: center;
 }
+ main {
+            flex: 1; /* This makes the main content take up available space */
+        }
 .container{
         padding: 0 40px; 
         text-align: center;
@@ -159,11 +166,12 @@ font-weight: bold;
 margin-top: 15px;
         }
 
-footer.page-footer {
-    background-color: #CC0000 !important; 
-    margin-top: auto; /* Push footer to the bottom */
-    color: white;
-}
+ footer.page-footer {
+            background-color: #CC0000 !important;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
 .img_music {
     width: 275px !important; /* Added px unit */
     height: 400px !important; /* Added px unit */
