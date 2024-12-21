@@ -166,3 +166,11 @@ footer.page-footer {
     margin-right: auto;
     display: block; /* Optional: Centering already works without it */
 }
+
+.img_Largo {
+    width: 500px !important;
+    height: 400px !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
