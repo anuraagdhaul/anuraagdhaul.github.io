@@ -5,6 +5,9 @@ body {
 nav {
     background-color: #000000 !important; 
 } 
+.body_music{
+    background-color: #EFE3B9;
+}
   
 .Page_Header {
     box-sizing: border-box; /* Ensure padding/margin don't affect width */
