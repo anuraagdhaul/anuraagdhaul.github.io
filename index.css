@@ -1,18 +1,15 @@
-body {
+ 
+ body {
     font-family: Georgia, "Times New Roman", Times, serif;
     margin: 0;              /* Removes default browser margins */    
         background-color: #EFE3B9;
-     display: flex;
-            flex-direction: column;
-            min-height: 100vh; /* Ensure body is at least as tall as the viewport */
-            margin: 0; 
 
   }
 nav {
     background-color: #000000 !important; 
 } 
-.body_white{
-    background-color:  #FFFFFF !important;
+.body_whie{
+    background-color:  #FFFFFF;
 }
   
 .Page_Header {
@@ -23,9 +20,6 @@ nav {
     color: #FFFFF0; /* Cream text */
     text-align: center;
 }
- main {
-            flex: 1; /* This makes the main content take up available space */
-        }
 .container{
         padding: 0 40px; 
         text-align: center;
@@ -56,19 +50,6 @@ nav {
     word-wrap: break-word;
   }
   
-/*.Scratch{
-  padding: 80px;
-  text-align: center;
-  width: 90%;
-  background: #54514b;
-  color: #eba937de;
-  word-wrap: break-word;
-  display: none;
-}
-
-.ScratchLink {
-  color:#b97807de;
-}*/
 
   .Intro {
     text-align: center;
@@ -76,38 +57,6 @@ nav {
     width: 90%;
     word-wrap: break-word;
   }
-  
-/* .Project1 {
-    padding: 30px;
-    color: #eba937de;
-    text-align: center;
-    font-size: 15px;
-    width: 90%;
-    word-wrap: break-word;
-  }
-  
-  .ImageLink {
-    padding: 30px;
-    text-align: center;
-    font-size: 15px;
-    width: 90%;
-    word-wrap: break-word;
-  }
-  
-.Image1 {
-    margin-left: auto;
-    margin-right: auto;
-    display:block
-}
-
-.Python{
-  padding: 80px;
-  text-align: center;
-  width: 90%;
-  background: #e59635;
-  word-wrap: break-word;
-  display: none;
-}*/
 
 .wrapper {
   display: flex;
@@ -135,22 +84,9 @@ a{
   width: 90%
 }
 
-/*.JavaScript{
-  padding: 80px;
-  background:indianred;
-  color: black;
-  text-align:center;
-  display: none
-  
-}
 
-.Website{
-  padding: 80px;
-  background: rgb(247, 222, 94);
-  color:black;
-  text-align:center;
-  display: none
-}*/
+
+
 
 /*rgb(227, 171, 17)*/
 .flex-container {
@@ -166,12 +102,11 @@ font-weight: bold;
 margin-top: 15px;
         }
 
- footer.page-footer {
-            background-color: #CC0000 !important;
-            color: white;
-            text-align: center;
-            padding: 1rem 0;
-        }
+footer.page-footer {
+    background-color: #CC0000 !important; 
+    margin-top: auto; /* Push footer to the bottom */
+    color: white;
+}
 .img_music {
     width: 275px !important; /* Added px unit */
     height: 400px !important; /* Added px unit */
