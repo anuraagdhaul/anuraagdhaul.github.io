@@ -15,7 +15,7 @@ nav {
   
 .Page_Header {
     box-sizing: border-box; /* Ensure padding/margin don't affect width */
-    padding: 60px 0px; /* Padding for top and bottom only */
+    padding: 40px 0px; /* Padding for top and bottom only */
     margin: 0; /* Prevent interaction with any inherited margins */
     background: #CC0000; /* Red background */
     color: #FFFFF0; /* Cream text */
