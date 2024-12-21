@@ -25,12 +25,7 @@ nav {
         text-align: center;
 
 }
-.footer-container{
-    flex: 1; /* Allow the container to stretch */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;}
+
   button {
     background-color: #696969; /* Green */
     color: #FFFFF0;
@@ -103,10 +98,23 @@ margin-top: 15px;
         }
 
 footer.page-footer {
-    background-color: #CC0000 !important; 
+   position:fixed;
+    left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background-color: #CC0000 !important; 
     margin-top: auto; /* Push footer to the bottom */
     color: white;
 }
+
+.footer-container{
+    flex: 1; /* Allow the container to stretch */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
 .img_music {
     width: 275px !important; /* Added px unit */
     height: 400px !important; /* Added px unit */
