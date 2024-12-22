@@ -94,9 +94,12 @@ a{
 .img_music {
     width: 275px !important; /* Added px unit */
     height: 400px !important; /* Added px unit */
+    max-width: 100%; /* Ensures it scales down if needed */
+    max-height: 100%; /* Prevents overflow */
+    object-fit: contain; /* Ensures the image content scales properly */
     margin-left: auto;
     margin-right: auto;
-    display: block; /* Optional: Centering already works without it */
+    display: block;
 }
 
 .img_Largo {
