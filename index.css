@@ -157,4 +157,13 @@ a{
     margin-right: auto;
     display: block;
 }
+.img_AustriaM2, .img_Sports2, .img_Teampic2 {
+    max-width: 100%;
+    max-height: 320px;
+    width: auto; /* Ensures aspect ratio is maintained */
+    height: auto; /* Ensures aspect ratio is maintained */
+    object-fit: contain; /* Prevents image distortion */
+    display: block;
+    margin: 0 auto; /* Centers the image */
+}
 
