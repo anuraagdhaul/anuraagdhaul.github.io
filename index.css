@@ -136,3 +136,11 @@ a{
     display: block;
 }
 
+.img_Bumblebee {
+    width: 360px !important;
+    height: 480px !important;
+    max-width: 100%; /* Ensures it scales down if needed */
+    max-height: 100%; /* Prevents overflow */
+    object-fit: contain; /* Ensures the image content scales properly */
+}
+
